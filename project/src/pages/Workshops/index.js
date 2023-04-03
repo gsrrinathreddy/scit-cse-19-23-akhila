@@ -53,31 +53,21 @@ export default function CustomizedAccordions() {
     <div>
       <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
-          <Typography>POWERBI </Typography>
+          <Typography>Full Stack Web Development </Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            I have experience in powerbi and certified by microsoft
-          </Typography>
-        </AccordionDetails>
-      </Accordion>
-      <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
-        <AccordionSummary aria-controls="panel2d-content" id="panel2d-header">
-          <Typography>PYTHON</Typography>
-        </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            I have completed python course in bytexl
+            I have completed this workshop from Edunet Foundation
           </Typography>
         </AccordionDetails>
       </Accordion>
       <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
         <AccordionSummary aria-controls="panel3d-content" id="panel3d-header">
-          <Typography>C++</Typography>
+          <Typography>PowerBI</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-           I have 2 years of experience in c++
+          completed PowerBI workshop from ICT Academy
           </Typography>
         </AccordionDetails>
       </Accordion>

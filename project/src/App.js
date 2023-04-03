@@ -7,6 +7,10 @@ import Hobbies from './pages/Hobbies';
 import Qualifications from './pages/Qualifications';
 import Experience from './pages/Experience';
 import Projects from './pages/Projects';
+import Certifications from './pages/Certifications';
+import Contactme from './pages/Contactme';
+import Workshops from './pages/Workshops';
+
 import './App.css';
 function App() {
   return (
@@ -19,6 +23,9 @@ function App() {
       <Route path = "Qualifications" element ={<Qualifications/>}/>
       <Route path = "Experience" element ={<Experience/>}/>
       <Route path = "Projects" element ={<Projects/>}/>
+      <Route path = "Certifications" element ={<Certifications/>}/>
+      <Route path = "Contactme" element ={<Contactme/>}/>
+      <Route path = "Workshops" element ={<Workshops/>}/>
           </Routes>
           </div>
 

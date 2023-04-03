@@ -16,7 +16,7 @@ import { Link } from 'react-router-dom';
 import FaceIcon from '@mui/icons-material/Face';
 
 
-const pages = ['Aboutus', 'Skills', 'Hobbies' , 'Experience' , 'Qualifications' , 'Projects'];
+const pages = ['Aboutus', 'Skills', 'Hobbies' , 'Experience' , 'Qualifications' , 'Projects' , 'Certifications' , 'Workshops', 'Contactme'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function INavbar() {
